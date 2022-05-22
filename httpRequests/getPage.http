@@ -1,0 +1,13 @@
+# Get index
+GET http://localhost:5000 HTTP/1.1
+
+### Get about
+GET http://localhost:5000/about.html HTTP/1.1
+
+### Дописать 2 варианта
+### GET not exists page
+
+GET http://localhost:5000/about1.html HTTP/1.1
+
+### check no access
+GET http://localhost:5000/a HTTP/1.1
